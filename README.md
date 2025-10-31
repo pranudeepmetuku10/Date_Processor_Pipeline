@@ -93,7 +93,7 @@ Examples of useful extensions:
 -   Converting timestamps across time zones
 
 ## Testing Considerations
-
+```
 Key cases to validate:
 
   Scenario                      Expected Behavior
@@ -102,7 +102,7 @@ Key cases to validate:
   Malformed log entries         Skipped safely
   Incorrect date format         Skipped without error
   Multiple processors chained   Produces correct sequential result
-
+```
 ## License
 
 This project is provided for educational and demonstration purposes.\
