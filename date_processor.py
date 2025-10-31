@@ -124,3 +124,4 @@ if __name__ == "__main__":
     result = pipeline.process(logs)
     print(result)  # Should have 2 formatted entries (Monday and Wednesday)
     '''
+# End
